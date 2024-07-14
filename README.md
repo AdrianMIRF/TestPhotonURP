@@ -1,5 +1,7 @@
 Features:
 
+* Functionality found in Scene: Main Scene (just hit play ;))
+
 * URP 
 * Post procces effects: bloom, tone mapping, depth of field
 
