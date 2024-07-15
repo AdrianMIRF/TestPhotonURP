@@ -82,6 +82,7 @@ public class GamePlayController : MonoBehaviour
         CancelInvoke(nameof(CheckForPlayersScore));
         _gamePlayView.ShowMapWin(player, _winMapScore);
         _playerInGamePlayRoom = false;
+		PhotonNetwork.LocalPlayer.SetScore(0);
         PhotonNetwork.Destroy(_player);
     }
 }

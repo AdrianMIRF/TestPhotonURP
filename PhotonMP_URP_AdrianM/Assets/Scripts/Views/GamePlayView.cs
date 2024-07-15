@@ -19,6 +19,8 @@ public class GamePlayView : MonoBehaviour, IView
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+		_previewRoomCamera.SetActive(false);
+		_mapWonPanel.SetActive(false);
         gameObject.SetActive(true);
     }
 
