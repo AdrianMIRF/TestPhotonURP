@@ -25,6 +25,8 @@ Features:
 * Create game room
 
 * Leave game room (return to global lobby)
+  
+* Map win condition and return to lobby after game condition met
 
 * Game room lobby player list
 
