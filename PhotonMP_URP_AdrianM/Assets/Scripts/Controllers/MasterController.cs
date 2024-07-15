@@ -51,6 +51,7 @@ public class MasterController : MonoBehaviourPunCallbacks
     public override void OnJoinedLobby()
     {
         base.OnJoinedLobby();
+        _previewRoomCamera.SetActive(true);
         _lobbyController.Initialize(_playerName);
     }
 
